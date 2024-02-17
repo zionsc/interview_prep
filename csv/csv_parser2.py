@@ -16,7 +16,6 @@ def parser2(file_name, dict):
             dict[line['NAME']]['STRIDE_LENGTH'] = float(line['STRIDE_LENGTH'])
             dict[line['NAME']]['STANCE'] = line['STANCE']
 
-
 def main():
     g = 9.8
     dinosaurs = defaultdict(dict) # dino name : dict{stance:, leg:, thing:}
